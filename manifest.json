@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Calorie Remover",
+  "version": "1.0",
+
+  "description": "Hides calorie labels on all Deliveroo restaurant menu pages.",
+
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.deliveroo.co.uk/*"],
+      "js": ["calorieRemover.js"]
+    }
+  ]
+
+}
