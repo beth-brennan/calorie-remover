@@ -1,6 +1,6 @@
 # Calorie Remover
 
-A Firefox extension hides calorie labels on the British food delivery website Deliveroo.
+A Firefox extension that hides calorie labels on the British food delivery website Deliveroo.
 
 ### About
 
